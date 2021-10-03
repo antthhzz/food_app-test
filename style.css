@@ -1,0 +1,47 @@
+.caro-img {
+  opacity: 0.5;
+  object-fit: cover;
+  height: 450px;
+}
+
+.title {
+  position: absolute;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  margin: 50px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  color: green;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05s);
+}
+
+.card-img {
+  height: 100px;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.card-img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
